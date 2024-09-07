@@ -19,7 +19,7 @@ const MainSection = () => {
     return (
         <section className="bg-white py-16">
             <div className="container  px-6">
-                <h2 className="text-xl font-serif font-semibold text-gray-800 mx-36 mb-8">Recent Blog Posts</h2>
+                <h2 className="text-xl font-serif font-semibold text-gray-800 mx-36 mb-8 lg:mx-36 mx-5 md:mx-20">Recent Blog Posts</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:mx-36 mx-5 md:mx-20">
                     {posts.map((post, index) => (
                         <div key={index} className="bg-white shadow-lg rounded-lg">
