@@ -22,10 +22,11 @@ const MainSection = () => {
                 <h2 className="text-xl font-serif font-semibold text-gray-800 mb-8 lg:mx-36 mx-3 md:mx-20">Recent Blog Posts</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:mx-36 mx-3 md:mx-20">
                     {posts.map((post, index) => (
-                        <div key={index} className="bg-white shadow-lg rounded-lg">
-                            <img src={stock3} alt={post.title} className="w-full h-[200px] object-cover rounded-xl" />
+                        <div key={index} className="bg-white hover:shadow-2xl rounded-3xl p-3">
+                            <img src={stock3} alt={post.title} className="w-full h-[200px] object-cover rounded-3xl" />
                             <div className="p-6">
                                 <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
+                                <h6>{post.description}</h6>
                                 <p className="text-gray-600 mb-4">{post.author} &middot; {post.date}</p>
                                 <a href="#" className="text-blue-600 hover:underline">Read more</a>
                             </div>
