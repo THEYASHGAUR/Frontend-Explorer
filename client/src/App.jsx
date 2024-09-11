@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Featured from './components/Featured';
 import MainSection from './components/MainSection';
 import Footer from './components/Footer';
+// import Demo from './components/Demo';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Featured />
       <MainSection />
       <Footer />
+      {/* <Demo /> */}
     </div>
   );
 }
