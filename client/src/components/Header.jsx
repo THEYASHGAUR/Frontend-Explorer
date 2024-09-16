@@ -72,10 +72,10 @@ const Header = () => {
         </nav>
 
 
-        <div className='flex '>
+        <div className='flex items-center  '>
 
           {/* search icon */}
-          <div onClick={toggleSearch} className=' cursor-pointer hover:bg-slate-100 rounded-lg lg:px-2  lg:-mr-[400px]   '>
+          <div onClick={toggleSearch} className=' cursor-pointer hover:bg-slate-100 rounded-lg lg:px-2  lg:-mr-[400px] inline-block   '>
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
