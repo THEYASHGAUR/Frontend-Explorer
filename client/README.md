@@ -8,8 +8,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-C:\Users\yashg\OneDrive\Desktop\Projects\mern-blog-app\client\src\assets\record.mp4
-C:\Users\yashg\OneDrive\Desktop\Projects\mern-blog-app\client\src\assets\record.mp4
-client\src\assets\record.mp4
+
+
+https://github.com/user-attachments/assets/0af1140d-130c-402d-89c8-4d9598c6499e
+
+
 
 <video controls src="src/assets/record.mp4" title="Title"></video>
