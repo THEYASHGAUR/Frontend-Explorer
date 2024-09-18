@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 C:\Users\yashg\OneDrive\Desktop\Projects\mern-blog-app\client\src\assets\record.mp4
-
+C:\Users\yashg\OneDrive\Desktop\Projects\mern-blog-app\client\src\assets\record.mp4
 client\src\assets\record.mp4
 
 <video controls src="src/assets/record.mp4" title="Title"></video>
